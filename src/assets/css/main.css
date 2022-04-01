@@ -22,3 +22,19 @@
   --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   --max-width: 1170px;
 }
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: var(--clr-white);
+  color: var(--clr-h-1);
+  margin-top: 5rem;
+  line-height: 1.5;
+  font-size: 0.9rem;
+  font-family: var(--txt-secondary);
+}
