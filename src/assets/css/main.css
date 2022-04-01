@@ -1,0 +1,24 @@
+:root {
+  /* primary */
+  --clr-1: #53866f;
+  --clr-2: #73aa91;
+  --clr-3: #93cfb4;
+  --clr-4: #b6f6d9;
+  /* h */
+  --clr-h-1: #00203fff;
+  --clr-h-2: #294763;
+  /* p */
+  --clr-p-3: #617d98;
+  --clr-p-4: #f1f5f8;
+  /* var */
+  --clr-red: #bb2525;
+  --clr-white: #fff;
+  --txt-primary: "Roboto", sans-serif;
+  --txt-secondary: "Open Sans", sans-serif;
+  --transition: all 0.3s linear;
+  --deaultSpacing: 0.2rem;
+  --defaultRadius: 0.25rem;
+  --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  --max-width: 1170px;
+}
