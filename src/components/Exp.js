@@ -2,8 +2,8 @@ import React from "react"
 import Heading from "./Heading"
 import { Link } from "gatsby"
 
-const History = () => {
-  return <div>History</div>
+const Exp = () => {
+  return <div>Exp</div>
 }
 
-export default History
+export default Exp
