@@ -5,8 +5,8 @@ import Sidebar from "./Sidebar"
 
 import "../assets/css/main.css"
 
-const Layout = () => {
-  return <div>Layout</div>
+const Layout = ({ children }) => {
+  return <>{children}</>
 }
 
 export default Layout

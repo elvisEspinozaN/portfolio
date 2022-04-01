@@ -1,5 +1,6 @@
 import React from "react"
-import { FaAlignRight } from "react-icons/fa"
+import logo from "../assets/images/logo.jpg"
+import pagePaths from "../const/path"
 import { Link } from "gatsby"
 
 const Navbar = () => {

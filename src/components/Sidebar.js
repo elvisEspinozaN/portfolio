@@ -1,6 +1,6 @@
 import React from "react"
+import paths from "../const/path"
 import { Link } from "gatsby"
-import { FaTimes } from "react-icons/fa"
 
 const Sidebar = () => {
   return <div>Sidebar</div>
