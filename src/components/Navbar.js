@@ -9,7 +9,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="navbar-center">
         <div className="navbar-heading">
-          <img src={logo} alt="logo" />
+          <img style={{ height: 50 }} src={logo} alt="logo" />
           <button type="button" className="click-btn">
             <CgAlignRight></CgAlignRight>
           </button>

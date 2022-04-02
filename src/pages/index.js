@@ -4,9 +4,14 @@ import Layout from "../components/Layout"
 import Headshots from "../components/Headshots"
 import Projects from "../components/Projects"
 import Skills from "../components/Skills"
+import { graphql } from "gatsby"
 
 const Index = () => {
-  return <Layout>Index</Layout>
+  return (
+    <Layout>
+      <Headshots />
+    </Layout>
+  )
 }
 
 export default Index

@@ -1,9 +1,26 @@
 import React from "react"
-import { Link } from "gatsby"
+import AccentPaths from "../const/accentPaths"
 import { StaticImage } from "gatsby-plugin-image"
+import { Link } from "gatsby"
 
 const Headshots = () => {
-  return <div>Headshots</div>
+  return (
+    <header className="headshots">
+      <div className="section-center headshots-center">
+        <article className="headshots-cont">
+          <div>
+            <h1>Elvis Espinoza</h1>
+            <h3>Software Engineer | Full Stack Developer</h3>
+            <h4>Based in NYC</h4>
+            <Link to="/contact" className="btn">
+              contact me
+            </Link>
+            <AccentPaths />
+          </div>
+        </article>
+      </div>
+    </header>
+  )
 }
 
 export default Headshots
