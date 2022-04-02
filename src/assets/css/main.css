@@ -65,3 +65,50 @@ p {
   margin-bottom: 1.25rem;
   color: var(--clr-p-3);
 }
+
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+
+/* navbar */
+.navbar {
+  display: flex;
+  align-items: center;
+  background: var(--clr-white);
+  z-index: 200;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 12rem;
+  position: absolute;
+}
+.navbar-center {
+  width: 90vw;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.navbar-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar-heading img {
+  margin-bottom: 0;
+}
+.click-btn {
+  font-size: 2.85rem;
+  background: transparent;
+  border: none;
+  color: var(--clr-3);
+  cursor: pointer;
+  transition: var(--transition);
+}
+.click-btn:hover {
+  color: var(--clr-2);
+}
+.nav-paths {
+  display: none;
+}
