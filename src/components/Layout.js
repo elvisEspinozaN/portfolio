@@ -6,7 +6,12 @@ import Sidebar from "./Sidebar"
 import "../assets/css/main.css"
 
 const Layout = ({ children }) => {
-  return <>{children}</>
+  return (
+    <>
+      <Navbar />
+      {children}
+    </>
+  )
 }
 
 export default Layout

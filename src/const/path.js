@@ -1,3 +1,6 @@
+import React from "react"
+import { Link } from "gatsby"
+
 const data = [
   {
     id: 1,
@@ -16,9 +19,21 @@ const data = [
   },
   {
     id: 4,
-    text: "contect",
+    text: "contact",
     url: "/contact",
   },
 ]
 
-export default data
+const myPaths = data.map(path => {
+  return (
+    <li key={path.id}>
+      <Link to={path.url}>{path.text}</Link>
+    </li>
+  )
+})
+
+export default ({ styleClass }) => {
+  return (
+    <ul className={`page-paths ${styleClass ? styleClass : ""}`}>{myPaths}</ul>
+  )
+}
