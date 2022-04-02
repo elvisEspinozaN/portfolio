@@ -234,3 +234,38 @@ h4 {
 .headshots .btn {
   margin-top: 1.3rem;
 }
+/* @media screen and (min-width: 990px) {
+  .headshots::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 70%;
+    right: 0;
+    bottom: 0;
+    background: var(--clr-white);
+  }
+  .headshots-center {
+    grid-template-columns: repeat(1fr, 60px);
+  }
+  .headshots h4,
+  h3 {
+    font-size: 0.9rem;
+  }
+  .headshots-cont {
+    grid-row: 1/1;
+    grid-column: 6/-1;
+  }
+}
+@media screen and (min-width: 1165) {
+  .headshots h4,
+  h3 {
+    font-size: 1rem;
+  }
+  .headshots-cont {
+    grid-column: 1 / span 8;
+  }
+  .headshots h4,
+  h3 {
+    line-height: 1;
+  }
+} */
