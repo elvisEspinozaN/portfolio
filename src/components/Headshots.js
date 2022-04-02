@@ -6,7 +6,7 @@ import { Link } from "gatsby"
 const Headshots = () => {
   return (
     <header className="headshots">
-      <div className="section-center headshots-center">
+      <section className="section-center headshots-center">
         <article className="headshots-cont">
           <div>
             <h1>Elvis Espinoza</h1>
@@ -18,7 +18,7 @@ const Headshots = () => {
             <AccentPaths />
           </div>
         </article>
-      </div>
+      </section>
     </header>
   )
 }
