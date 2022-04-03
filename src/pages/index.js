@@ -10,6 +10,7 @@ const Index = () => {
   return (
     <Layout>
       <Headshots />
+      <Skills />
     </Layout>
   )
 }
