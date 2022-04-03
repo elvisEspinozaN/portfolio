@@ -21,3 +21,5 @@ const skills = [
     text: "Github | OOP | DOM | AJAX | Mongoose ODM | Oauth | Heroku | JSX | Firebase | AWS S3",
   },
 ]
+
+export default skills
