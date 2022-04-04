@@ -1,7 +1,6 @@
 import React from "react"
 import Heading from "./Heading"
 import exps from "../const/exp"
-import { FaChevronCircleRight } from "react-icons/fa"
 
 const Exp = () => {
   const [value, setValue] = React.useState(0)
@@ -30,7 +29,7 @@ const Exp = () => {
           {desc.map(e => {
             return (
               <div key={e.id} className="exp-desc">
-                <p>{e.nan}</p>
+                <p> - {e.nan}</p>
               </div>
             )
           })}
