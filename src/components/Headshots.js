@@ -1,6 +1,5 @@
 import React from "react"
 import AccentPaths from "../const/accentPaths"
-import { StaticImage } from "gatsby-plugin-image"
 import { Link } from "gatsby"
 
 const Headshots = () => {

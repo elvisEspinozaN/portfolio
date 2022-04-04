@@ -1,6 +1,5 @@
 import React from "react"
 import { FaGithub, FaLinkedin, FaTwitterSquare } from "react-icons/fa"
-import path from "./path"
 
 const data = [
   {
@@ -23,7 +22,12 @@ const data = [
 const paths = data.map(path => {
   return (
     <li key={path.id}>
-      <a href={path.url} target="_blank" className="accent-path">
+      <a
+        href={path.url}
+        target="_blank"
+        rel="noreferrer"
+        className="accent-path"
+      >
         {path.icon}
       </a>
     </li>

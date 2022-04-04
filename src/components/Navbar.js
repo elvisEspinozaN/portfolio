@@ -2,7 +2,6 @@ import React from "react"
 import logo from "../assets/images/logo.jpg"
 import PagePaths from "../const/path"
 import { CgAlignRight } from "react-icons/cg"
-import { Link } from "gatsby"
 
 const Navbar = () => {
   return (
