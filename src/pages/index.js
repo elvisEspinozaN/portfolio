@@ -8,8 +8,8 @@ const Index = () => {
   return (
     <Layout>
       <Headshots />
-      <Skills />
       <Exp />
+      <Skills />
     </Layout>
   )
 }

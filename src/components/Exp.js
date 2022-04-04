@@ -1,6 +1,7 @@
 import React from "react"
 import Heading from "./Heading"
 import exps from "../const/exp"
+import { FaChevronCircleRight } from "react-icons/fa"
 
 const Exp = () => {
   const [value, setValue] = React.useState(0)
@@ -14,7 +15,7 @@ const Exp = () => {
             return (
               <button
                 key={i}
-                className={i === value ? "exp-btn active-btn" : "exp-btn"}
+                className={i === value ? "exp-btn a-btn" : "exp-btn"}
                 onClick={() => setValue(i)}
               >
                 {e.company}
