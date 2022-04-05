@@ -7,7 +7,7 @@ const Project = ({ title, desc, imgUrl, githubUrl, tags, url }) => {
     <article className="project">
       <img src={imgUrl} alt={title} className="project-img" />
       <div className="project-cont">
-        <Link className="project-page" to={`/projects/${title}`}>
+        <Link className="project-page" to="/projects">
           <h4>{title}</h4>
         </Link>
         <p className="project-desc">{desc}</p>
