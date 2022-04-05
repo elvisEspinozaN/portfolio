@@ -9,6 +9,7 @@ const Footer = () => {
           <AccentPaths />
         </div>
         <h4>copyright&copy;{new Date().getFullYear()}</h4>
+        <span>EE. all rights reserved</span>
       </div>
     </footer>
   )

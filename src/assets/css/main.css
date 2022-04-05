@@ -1,5 +1,6 @@
 :root {
   /* primary */
+  --clr-0: #000000;
   --clr-1: #53866f;
   --clr-2: #73aa91;
   --clr-3: #93cfb4;
@@ -533,4 +534,31 @@ h4 {
   color: var(--clr-2);
   margin-bottom: 2rem;
   text-transform: uppercase;
+}
+
+/* footer */
+.footer-main {
+  height: 12rem;
+  background: var(--clr-p-4);
+  text-align: center;
+  display: grid;
+  place-items: center;
+}
+.footer-main h4 {
+  font-weight: bold;
+  color: var(--clr-white);
+  margin-top: 0.5rem;
+}
+.footer-main h4,
+span {
+  color: var(--clr-3);
+}
+.footer-paths {
+  margin: 0 auto 1.2rem auto;
+}
+.footer-main .accent-paths {
+  color: var(--clr-white) !important;
+}
+.footer-main .accent-paths:hover {
+  color: var(--clr-5);
 }
