@@ -1,6 +1,6 @@
 import React from "react"
 
-const projects = [
+const featured = [
   {
     id: 1,
     title: "Phoenix Roasters",
@@ -9,7 +9,6 @@ const projects = [
     githubUrl:
       "https://github.com/elvisEspinozaN/phoenix_roasters/tree/dev-elvis",
     url: "https://phoenix-roasters.herokuapp.com/",
-    featured: True,
     tags: [
       {
         id: 1,
@@ -31,4 +30,4 @@ const projects = [
   },
 ]
 
-export default projects
+export default featured
