@@ -351,3 +351,8 @@ h4 {
     letter-spacing: var(--deaultSpacing);
   }
 }
+
+/* featured */
+.featured {
+  background: var(--clr-p-4);
+}

@@ -6,9 +6,9 @@ import { Link } from "gatsby"
 
 const Projects = () => {
   return (
-    <section className="section projects">
+    <section className="section featured">
       <Heading heading="featured" />
-      <div className="section-center projects-center">
+      <div className="section-center featured-center">
         {featured.map((feature, e) => {
           return <Project key={feature.id} index={e} {...feature} />
         })}
