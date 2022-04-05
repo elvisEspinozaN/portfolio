@@ -8,8 +8,12 @@ const Footer = () => {
         <div className="footer-paths accent-paths">
           <AccentPaths />
         </div>
-        <h4>copyright&copy;{new Date().getFullYear()}</h4>
-        <span>EE. all rights reserved</span>
+        <h4>
+          copyright&copy;{new Date().getFullYear()}
+          <br />
+          <br />
+          <span>Elvis Espinoza</span> all rights reserved
+        </h4>
       </div>
     </footer>
   )

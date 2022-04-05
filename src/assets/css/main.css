@@ -549,16 +549,17 @@ h4 {
   color: var(--clr-white);
   margin-top: 0.5rem;
 }
-.footer-main h4,
-span {
+.footer-main h4 span {
   color: var(--clr-3);
 }
 .footer-paths {
   margin: 0 auto 1.2rem auto;
 }
-.footer-main .accent-paths {
-  color: var(--clr-white) !important;
+/* .footer-main > .accent-paths {
+  color: var(--clr-white);
 }
 .footer-main .accent-paths:hover {
   color: var(--clr-5);
-}
+} */
+
+/* contact */
