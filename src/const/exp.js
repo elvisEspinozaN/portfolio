@@ -1,5 +1,3 @@
-import React from "react"
-
 const exp = [
   {
     id: 1,

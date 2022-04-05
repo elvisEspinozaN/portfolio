@@ -1,6 +1,5 @@
 import React from "react"
 import Allp from "../components/Allp"
-import allP from "../const/allP"
 
 const ProjectsPage = () => {
   return (

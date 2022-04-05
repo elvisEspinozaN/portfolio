@@ -2,7 +2,6 @@ import React from "react"
 import Heading from "./Heading"
 import Project from "./Project"
 import allP from "../const/allP"
-import { Link } from "gatsby"
 
 const Allp = () => {
   return (
