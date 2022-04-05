@@ -476,8 +476,15 @@ h4 {
     grid-row: 1 / 1;
   }
   .project:nth-of-type(even) .project-cont {
-    grid-column: 3 / span 7;
+    grid-column: 3 / span 8;
     grid-row: 1 / 1;
     text-align: left;
   }
+}
+.projects-main,
+.error-page,
+.about-page,
+.contact-page {
+  min-height: calc(100vh - 5rem - 9rem);
+  background: var(--clr-p-4);
 }
