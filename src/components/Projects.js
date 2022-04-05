@@ -4,20 +4,16 @@ import Project from "./Project"
 import featured from "../const/featured"
 import { Link } from "gatsby"
 
-const Projects = ({ projects, title, aLink }) => {
+const Projects = () => {
   return (
     <section className="section projects">
-      <Heading heading={title} />
+      <Heading heading="featured" />
       <div className="section-center projects-center">
         {featured.map((feature, e) => {
           return <Project key={feature.id} index={e} {...feature} />
         })}
       </div>
-      {aLink && (
-        <Link to="/projects" className="btn center-btn">
-          projects
-        </Link>
-      )}
+      <Link to="/projects" className="btn center-btn" />
     </section>
   )
 }
