@@ -539,7 +539,7 @@ h4 {
 /* footer */
 .footer-main {
   height: 12rem;
-  background: var(--clr-p-4);
+  background: var(--clr-p-3);
   text-align: center;
   display: grid;
   place-items: center;
@@ -563,3 +563,53 @@ h4 {
 } */
 
 /* contact */
+.contact-page {
+  display: grid;
+  place-items: center;
+  padding: 5rem 0;
+}
+.contact-form {
+  background: var(--clr-white);
+  border-radius: var(--defaultRadius);
+  text-align: center;
+  box-shadow: var(--light-shadow);
+  transition: var(--transition);
+  width: 90vw;
+  max-width: 35rem;
+}
+.contact-form:hover {
+  box-shadow: var(--dark-shadow);
+}
+.contact-form h3 {
+  padding-top: 1.25rem;
+  color: var(--clr-p-3);
+}
+.form-group {
+  padding: 1rem 1.5rem;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: none;
+  margin-bottom: 1.25rem;
+  background: var(--clr-p-4);
+  border-radius: var(--defaultRadius);
+  text-transform: uppercase;
+  letter-spacing: var(--deaultSpacing);
+}
+.form-control::placeholder {
+  font-family: var(--txt-primary);
+  color: var(--clr-h-1);
+  text-transform: uppercase;
+  letter-spacing: var(--deaultSpacing);
+}
+.submit-btn {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  border-bottom-left-radius: var(--defaultRadius);
+  border-bottom-right-radius: var(--defaultRadius);
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
