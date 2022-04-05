@@ -7,12 +7,12 @@ import Projects from "../components/Projects"
 
 const Index = () => {
   return (
-    <Layout>
+    <main>
       <Headshots />
       <Exp />
       <Skills />
       <Projects />
-    </Layout>
+    </main>
   )
 }
 
