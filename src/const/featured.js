@@ -19,11 +19,11 @@ const featured = [
         tag: "Python",
       },
       {
-        id: 1,
+        id: 3,
         tag: "Heroku",
       },
       {
-        id: 1,
+        id: 4,
         tag: "Sass",
       },
     ],
@@ -45,11 +45,11 @@ const featured = [
         tag: "MoongoDB",
       },
       {
-        id: 1,
+        id: 3,
         tag: "Netlify",
       },
       {
-        id: 1,
+        id: 4,
         tag: "Firebase",
       },
     ],

@@ -8,11 +8,11 @@ const Project = ({ title, desc, imgUrl, githubUrl, index, tags, url }) => {
       <img src={imgUrl} alt={title} className="project-img" />
       <div className="project-cont">
         <span className="project-num">0{index + 1}.</span>
-        <Link to={`/projects/${title}`}>
+        <Link className="project-page" to={`/projects/${title}`}>
           <h4>{title}</h4>
         </Link>
         <p className="project-desc">{desc}</p>
-        <div className="project tags">
+        <div className="project-tags">
           {tags.map(tag => {
             return <span key={tag.id}>{tag.tag}</span>
           })}
