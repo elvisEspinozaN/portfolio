@@ -13,7 +13,9 @@ const Projects = () => {
           return <Project key={feature.id} index={e} {...feature} />
         })}
       </div>
-      <Link to="/projects" className="btn center-btn" />
+      <Link to="/projects" className="btn center-btn">
+        projects
+      </Link>
     </section>
   )
 }

@@ -2,12 +2,11 @@ import React from "react"
 import { FaGithubSquare, FaSearch } from "react-icons/fa"
 import { Link } from "gatsby"
 
-const Project = ({ title, desc, imgUrl, githubUrl, index, tags, url }) => {
+const Project = ({ title, desc, imgUrl, githubUrl, tags, url }) => {
   return (
     <article className="project">
       <img src={imgUrl} alt={title} className="project-img" />
       <div className="project-cont">
-        <span className="project-num">0{index + 1}.</span>
         <Link className="project-page" to={`/projects/${title}`}>
           <h4>{title}</h4>
         </Link>
