@@ -118,7 +118,7 @@ a {
 }
 
 .projects-main,
-.error-page,
+.error-main,
 .about-main,
 .contact-page {
   min-height: calc(100vh - 5rem - 9rem);
@@ -521,4 +521,16 @@ h4 {
   .about-cont {
     grid-column: 6 / -1;
   }
+}
+
+/* 404 */
+.error-main {
+  display: grid;
+  background: var(--clr-p-4);
+  place-items: center;
+}
+.error-main h1 {
+  color: var(--clr-2);
+  margin-bottom: 2rem;
+  text-transform: uppercase;
 }
