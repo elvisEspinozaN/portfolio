@@ -3,6 +3,7 @@ import Layout from "../components/Layout"
 import Headshots from "../components/Headshots"
 import Skills from "../components/Skills"
 import Exp from "../components/Exp"
+import Projects from "../components/Projects"
 
 const Index = () => {
   return (
@@ -10,6 +11,7 @@ const Index = () => {
       <Headshots />
       <Exp />
       <Skills />
+      <Projects />
     </Layout>
   )
 }
