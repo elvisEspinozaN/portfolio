@@ -3,7 +3,7 @@ const allP = [
     id: 1,
     title: "Phoenix Roasters",
     desc: "Phoenix Roasters was built with startups in mind. We wanted to be able to provide an afforadable and easily customizable website to up and coming coffee shops on a budget.",
-    imgUrl: "https://i.imgur.com/mzIvXyz.png",
+    imgUrl: "https://i.imgur.com/4FRSj2z.png",
     githubUrl:
       "https://github.com/elvisEspinozaN/phoenix_roasters/tree/dev-elvis",
     url: "https://phoenix-roasters.herokuapp.com/",
@@ -30,9 +30,9 @@ const allP = [
     id: 2,
     title: "Repo Portfolio",
     desc: "Actually tousled neutra fingerstache migas, enamel pin mustache beard tbh hot chicken subway tile XOXO PBR&B activated charcoal squid. Asymmetrical microdosing fixie, poutine vegan bicycle rights heirloom migas 8-bit bushwick sriracha retro.",
-    imgUrl: "https://i.imgur.com/9P6wGsm.png",
+    imgUrl: "https://i.imgur.com/80uGbXR.png",
     githubUrl: "https://github.com/elvisEspinozaN/repoPortfolio",
-    url: "https://repoportfolio.netlify.app/",
+    url: "https://repoportfolio.netlify.app",
     tags: [
       {
         id: 1,
@@ -56,9 +56,9 @@ const allP = [
     id: 3,
     title: "myFlight",
     desc: "Actually tousled neutra fingerstache migas, enamel pin mustache beard tbh hot chicken subway tile XOXO PBR&B activated charcoal squid. Asymmetrical microdosing fixie, poutine vegan bicycle rights heirloom migas 8-bit bushwick sriracha retro.",
-    imgUrl: "https://i.imgur.com/sAQXW9K.png",
+    imgUrl: "https://i.imgur.com/nn3wtMF.png",
     githubUrl: "https://github.com/elvisEspinozaN/myFlight",
-    url: "https://github.com/elvisEspinozaN/myFlight",
+    url: "https://my-flight-ee.herokuapp.com/",
     tags: [
       {
         id: 1,
@@ -82,9 +82,9 @@ const allP = [
     id: 4,
     title: "Pokédex",
     desc: "Actually tousled neutra fingerstache migas, enamel pin mustache beard tbh hot chicken subway tile XOXO PBR&B activated charcoal squid. Asymmetrical microdosing fixie, poutine vegan bicycle rights heirloom migas 8-bit bushwick sriracha retro.",
-    imgUrl: "https://i.imgur.com/DKWJUja.png",
+    imgUrl: "https://i.imgur.com/9ejZlTS.png",
     githubUrl: "https://github.com/elvisEspinozaN/pokedex",
-    url: "https://mypokedex01.netlify.app/",
+    url: "https://pokedex-ee.netlify.app",
     tags: [
       {
         id: 1,
