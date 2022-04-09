@@ -19,23 +19,4 @@ const data = [
   },
 ]
 
-const paths = data.map(path => {
-  return (
-    <li key={path.id}>
-      <a
-        href={path.url}
-        target="_blank"
-        rel="noreferrer"
-        className="accent-path"
-      >
-        {path.icon}
-      </a>
-    </li>
-  )
-})
-
-export default ({ styleClass }) => {
-  return (
-    <ul className={`accent-paths ${styleClass ? styleClass : ""}`}>{paths}</ul>
-  )
-}
+export default data

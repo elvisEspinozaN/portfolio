@@ -1,5 +1,5 @@
 import React from "react"
-import AccentPaths from "../const/accentPaths"
+import accentPaths from "../const/accentPaths"
 import { Link } from "gatsby"
 
 const Headshots = () => {
@@ -14,7 +14,21 @@ const Headshots = () => {
             <Link to="/contact" className="btn">
               contact me
             </Link>
-            <AccentPaths />
+            <div className="accent-paths">
+              {accentPaths.map(path => {
+                return (
+                  <a
+                    href={path.url}
+                    key={path.id}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="accent-path"
+                  >
+                    {path.icon}
+                  </a>
+                )
+              })}
+            </div>
           </div>
         </article>
       </section>

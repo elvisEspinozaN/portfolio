@@ -173,10 +173,11 @@ a {
     display: flex;
     justify-content: flex-end;
   }
-  .nav-paths li {
+  /* .nav-paths li {
     margin-right: 2rem;
-  }
+  } */
   .nav-paths a {
+    margin-right: 2rem;
     color: var(--clr-h-1);
     transition: var(--transition);
     padding: 0.475rem 0;

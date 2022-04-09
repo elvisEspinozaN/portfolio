@@ -1,12 +1,24 @@
 import React from "react"
-import AccentPaths from "../const/accentPaths"
+import accentPaths from "../const/accentPaths"
 
 const Footer = () => {
   return (
     <footer className="footer-main">
       <div>
         <div className="footer-paths accent-paths">
-          <AccentPaths />
+          {accentPaths.map(path => {
+            return (
+              <a
+                href={path.url}
+                target="_blank"
+                rel="noreferrer"
+                key={path.id}
+                className="accent-path"
+              >
+                {path.icon}
+              </a>
+            )
+          })}
         </div>
         <h4>
           copyright&copy;{new Date().getFullYear()}

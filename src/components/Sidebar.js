@@ -2,23 +2,38 @@ import React from "react"
 import Path from "../const/path"
 import AccentPaths from "../const/accentPaths"
 import { FaTimesCircle } from "react-icons/fa"
+import { Link } from "gatsby"
 
-const Sidebar = () => {
-  const isOpen = true
+const Sidebar = ({ isOpen, toggleSidebar }) => {
   return (
     <aside className={isOpen ? "sidebar show-sidebar" : "sidebar"}>
-      Sidebar
-      <button className="close-btn" type="button">
+      <button className="close-btn" type="button" onClick={toggleSidebar}>
         <FaTimesCircle />
-        <div className="side-cont">
-          <ul className={isOpen ? "sidebar-paths" : null}>
-            <Path />
-          </ul>
-          <ul className={isOpen ? "accent-paths sidebar-icons" : null}>
-            <AccentPaths />
-          </ul>
-        </div>
       </button>
+      <div className="side-cont">
+        <ul className={isOpen ? "sidebar-paths" : null}>
+          {Path.map(p => {
+            return (
+              <li key={p.id}>
+                <Link to={p.url} onClick={toggleSidebar}>
+                  {p.text}
+                </Link>
+              </li>
+            )
+          })}
+        </ul>
+        <ul className={isOpen ? "accent-paths sidebar-icons" : null}>
+          {AccentPaths.map(a => {
+            return (
+              <li key={a.id}>
+                <Link to={a.url} onClick={toggleSidebar}>
+                  {a.icon}
+                </Link>
+              </li>
+            )
+          })}
+        </ul>
+      </div>
     </aside>
   )
 }
