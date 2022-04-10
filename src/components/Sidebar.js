@@ -26,9 +26,14 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
           {AccentPaths.map(a => {
             return (
               <li key={a.id}>
-                <Link to={a.url} onClick={toggleSidebar}>
+                <a
+                  href={a.url}
+                  onClick={toggleSidebar}
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   {a.icon}
-                </Link>
+                </a>
               </li>
             )
           })}
