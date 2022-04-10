@@ -1,9 +1,11 @@
 import React from "react"
 import Heading from "../components/Heading"
+import Seo from "../components/Seo"
 
 const About = () => {
   return (
     <>
+      <Seo title="About" />
       <section className="about-main">
         <div className="section-center about-center">
           <img

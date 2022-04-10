@@ -3,15 +3,19 @@ import Headshots from "../components/Headshots"
 import Skills from "../components/Skills"
 import Exp from "../components/Exp"
 import Projects from "../components/Projects"
+import Seo from "../components/Seo"
 
 const Index = () => {
   return (
-    <main>
-      <Headshots />
-      <Exp />
-      <Skills />
-      <Projects />
-    </main>
+    <>
+      <Seo title="Home" />
+      <main>
+        <Headshots />
+        <Exp />
+        <Skills />
+        <Projects />
+      </main>
+    </>
   )
 }
 

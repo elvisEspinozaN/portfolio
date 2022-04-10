@@ -6,6 +6,14 @@
 
 module.exports = {
   /* Your site config here */
+  siteMetadata: {
+    title: `EE Portfolio`,
+    description: `Portfolio built with Gatsby`,
+    titleTemplate: `%s | EE Portfolio`,
+    url: `https://elvisespinoza.netlify.app`,
+    twitterUsername: `@elvisEspinozaN`,
+    image: `/mainimg.png`,
+  },
   plugins: [
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,

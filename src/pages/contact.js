@@ -1,8 +1,10 @@
 import React from "react"
+import Seo from "../components/Seo"
 
 const contact = () => {
   return (
     <>
+      <Seo title="Contact" />
       <section className="contact-page">
         <article className="contact-form">
           <h3>Get In Touch</h3>
