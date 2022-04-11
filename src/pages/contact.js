@@ -8,8 +8,14 @@ const contact = () => {
       <section className="contact-page">
         <article className="contact-form">
           <h3>Get In Touch</h3>
-          <form>
+          <form
+            name="Contact-Form"
+            method="POST"
+            action="/thanks"
+            data-netlify="true"
+          >
             <div className="form-group">
+              <input type="hidden" name="form-name" value="Contact-Form" />
               <input
                 type="text"
                 name="name"

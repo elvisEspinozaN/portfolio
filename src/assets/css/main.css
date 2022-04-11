@@ -592,7 +592,6 @@ h4 {
   margin-bottom: 1.25rem;
   background: var(--clr-p-4);
   border-radius: var(--defaultRadius);
-  text-transform: uppercase;
   letter-spacing: var(--deaultSpacing);
 }
 .form-control::placeholder {

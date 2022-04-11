@@ -2,7 +2,7 @@ const featured = [
   {
     id: 1,
     title: "Phoenix Roasters",
-    desc: "Phoenix Roasters was built with startups in mind. We wanted to be able to provide an afforadable and easily customizable website to up and coming coffee shops on a budget.",
+    desc: "Full Stack Application that uses Python-base Django Web Framework and collaborated as a team project - throughout development using scrum methodology and agile development principles",
     imgUrl: "https://i.imgur.com/mzIvXyz.png",
     githubUrl:
       "https://github.com/elvisEspinozaN/phoenix_roasters/tree/dev-elvis",
@@ -29,7 +29,7 @@ const featured = [
   {
     id: 2,
     title: "Repo Portfolio",
-    desc: "Actually tousled neutra fingerstache migas, enamel pin mustache beard tbh hot chicken subway tile XOXO PBR&B activated charcoal squid. Asymmetrical microdosing fixie, poutine vegan bicycle rights heirloom migas 8-bit bushwick sriracha retro.",
+    desc: "Mern-stack application, with a React frontend deployed onto Netlify and a backend with an Express-based API hosted through Heroku",
     imgUrl: "https://i.imgur.com/9P6wGsm.png",
     githubUrl: "https://github.com/elvisEspinozaN/repoPortfolio",
     url: "https://repoportfolio.netlify.app/",
@@ -44,7 +44,7 @@ const featured = [
       },
       {
         id: 3,
-        tag: "Netlify",
+        tag: "Express",
       },
       {
         id: 4,

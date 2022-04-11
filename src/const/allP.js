@@ -2,7 +2,7 @@ const allP = [
   {
     id: 1,
     title: "Phoenix Roasters",
-    desc: "Phoenix Roasters was built with startups in mind. We wanted to be able to provide an afforadable and easily customizable website to up and coming coffee shops on a budget.",
+    desc: "Phoenix Roasters was built with startups in mind. We wanted to be able to provide an afforadable and easily customizable website to up and coming coffee shops on a budget. A full CRUD web application using the Django frameworks, Python and a PostgreSQL database. The user is able to visit freely through the order-to-go e-commerce app, in addition authorization and authentiction is used in order able to serve the customer the needs of purchasing what is wanted. As it was a group project my contributions included from building out fontend and backend components from designs, features and authentication",
     imgUrl: "https://i.imgur.com/4FRSj2z.png",
     githubUrl:
       "https://github.com/elvisEspinozaN/phoenix_roasters/tree/dev-elvis",
@@ -29,7 +29,7 @@ const allP = [
   {
     id: 2,
     title: "Repo Portfolio",
-    desc: "Actually tousled neutra fingerstache migas, enamel pin mustache beard tbh hot chicken subway tile XOXO PBR&B activated charcoal squid. Asymmetrical microdosing fixie, poutine vegan bicycle rights heirloom migas 8-bit bushwick sriracha retro.",
+    desc: "A MERN-stack application that allows users to post repositories into a public portfolio. All visitors are authorize to view without any user interaction, until visitor logs in using Google Firebase. Through .",
     imgUrl: "https://i.imgur.com/80uGbXR.png",
     githubUrl: "https://github.com/elvisEspinozaN/repoPortfolio",
     url: "https://repoportfolio.netlify.app",
