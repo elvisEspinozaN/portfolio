@@ -9,10 +9,8 @@ const contact = () => {
         <article className="contact-form">
           <h3>Get In Touch</h3>
           <form
-            name="Contact-Form"
+            action="https://getform.io/f/e84d9c47-860b-417e-8a43-ac5233dd3b3b"
             method="POST"
-            action="/thanks"
-            data-netlify="true"
           >
             <div className="form-group">
               <input type="hidden" name="form-name" value="Contact-Form" />
@@ -33,10 +31,10 @@ const contact = () => {
                 rows="5"
                 placeholder="message"
                 className="form-control"
-              ></textarea>
+              />
             </div>
             <button type="submit" className="submit-btn btn">
-              submit here
+              Submit Here
             </button>
           </form>
         </article>

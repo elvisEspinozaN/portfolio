@@ -1,8 +1,13 @@
 import React from "react"
 import Heading from "../components/Heading"
 import Seo from "../components/Seo"
+import Popresume from "../components/Popresume"
+import { FiFile } from "react-icons/fi"
+import { useState } from "react"
 
 const About = () => {
+  const [buttonPopup, setButtonPopup] = useState(false)
+
   return (
     <>
       <Seo title="About" />
@@ -15,32 +20,38 @@ const About = () => {
           />
           <article className="about-cont">
             <Heading heading="About Me" />
-            <p>Welcome to my software engineering portfolio!</p>
+            <h3>Welcome to my software engineering portfolio!</h3>
             <hr />
             <br />
-            <br />
+            <h4>I am a Software Engineer from New York, NY</h4>
             <p>
-              Chillwave pork belly knausgaard, poke hammock beard cray organic
-              echo park. DIY chillwave selvage, letterpress wayfarers ennui cred
-              semiotics sustainable. Twee freegan slow-carb mustache small
-              batch. Shabby chic bespoke direct trade kale chips salvia
-              thundercats. Williamsburg pour-over seitan banjo taxidermy
-              hammock. Affogato hashtag pinterest squid, glossier enamel pin
-              williamsburg yuccie edison bulb.
+              Currently a fellow in the Immersive Software Engineering course at
+              General Assembly, commited to striving into the tech field, I was
+              able to develop a multitude of skills that has allowed me to
+              design and develop full-stack software products, and several
+              full-stack applications while incorporating the latest frameworks
+              and techonologies.
             </p>
             <p>
-              And more hipster ipsum... I'm baby cloud bread listicle beard,
-              trust fund 8-bit meditation gochujang subway tile. Banjo palo
-              santo chillwave hell of man braid, next level meditation health
-              goth air plant hammock man bun. Thundercats messenger bag
-              actually, live-edge single-origin coffee adaptogen tote bag
-              skateboard lumbersexual yuccie photo booth drinking vinegar edison
-              bulb beard. Gochujang disrupt kogi literally, asymmetrical
-              polaroid occupy forage fingerstache. Roof party bespoke truffaut
-              disrupt drinking vinegar photo booth brooklyn intelligentsia
-              bicycle rights keffiyeh kickstarter small batch tofu kogi
-              lumbersexual.
+              I'm a new Full-Stack Developer interested in frontend development
+              with a keen interest in React!
             </p>
+            <p>Feel free to check my resume here</p>
+            <div className="resume">
+              <button
+                onClick={() => setButtonPopup(true)}
+                className="open-button-resume"
+              >
+                <FiFile />
+              </button>
+              <Popresume trigger={buttonPopup} setTrigger={setButtonPopup}>
+                <img
+                  className="resume-img"
+                  src="https://i.imgur.com/BNS4sxr.png"
+                  alt="resume"
+                />
+              </Popresume>
+            </div>
           </article>
         </div>
       </section>
