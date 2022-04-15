@@ -26,17 +26,17 @@ const About = () => {
             <h4>I am a Software Engineer from New York, NY</h4>
             <p>
               Currently a fellow in the Immersive Software Engineering course at
-              General Assembly, commited to striving into the tech field, I was
-              able to develop a multitude of skills that has allowed me to
-              design and develop full-stack software products, and several
-              full-stack applications while incorporating the latest frameworks
-              and techonologies.
+              General Assembly, commited to striving into the tech field, during
+              whhich I was able to develop a multitude of skills that has
+              allowed me to design and develop full-stack software products, and
+              several full-stack applications while incorporating the latest
+              frameworks and techonologies.
             </p>
             <p>
               I'm a new Full-Stack Developer interested in frontend development
               with a keen interest in React!
             </p>
-            <p>Feel free to check my resume here</p>
+            <p>Feel free to check out my resume here</p>
             <div className="resume">
               <button
                 onClick={() => setButtonPopup(true)}

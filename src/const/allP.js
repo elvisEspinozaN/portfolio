@@ -29,7 +29,7 @@ const allP = [
   {
     id: 2,
     title: "Repo Portfolio",
-    desc: "A MERN-stack application that allows users to post repositories into a public portfolio. All visitors are authorize to view without any user interaction, until visitor logs in using Google Firebase. Through .",
+    desc: "A MERN-stack application that allows users to post repositories into a public portfolio. All visitors are allowed to view the content, but without any functionality until users are authorized using Google's Firebase. Authorized users then have full CRUD functionalities in the app.",
     imgUrl: "https://i.imgur.com/80uGbXR.png",
     githubUrl: "https://github.com/elvisEspinozaN/repoPortfolio",
     url: "https://repoportfolio.netlify.app",
@@ -55,7 +55,7 @@ const allP = [
   {
     id: 3,
     title: "myFlight",
-    desc: "Actually tousled neutra fingerstache migas, enamel pin mustache beard tbh hot chicken subway tile XOXO PBR&B activated charcoal squid. Asymmetrical microdosing fixie, poutine vegan bicycle rights heirloom migas 8-bit bushwick sriracha retro.",
+    desc: "myFlight is a full CRUD application where the user is able to add and delete flights from dashboard. This application utilizes authentication with Bcrypt authorizing users, where they are allowed to edit flight information.",
     imgUrl: "https://i.imgur.com/nn3wtMF.png",
     githubUrl: "https://github.com/elvisEspinozaN/myFlight",
     url: "https://my-flight-ee.herokuapp.com/",
@@ -81,7 +81,7 @@ const allP = [
   {
     id: 4,
     title: "Pokédex",
-    desc: "Actually tousled neutra fingerstache migas, enamel pin mustache beard tbh hot chicken subway tile XOXO PBR&B activated charcoal squid. Asymmetrical microdosing fixie, poutine vegan bicycle rights heirloom migas 8-bit bushwick sriracha retro.",
+    desc: "Pokédex, is a search application utilizing the public PokeAPI. When searching for a Pokémon, a request is made to the API to query for information and descriptions of the Pokémon. It's my first application as well!",
     imgUrl: "https://i.imgur.com/9ejZlTS.png",
     githubUrl: "https://github.com/elvisEspinozaN/pokedex",
     url: "https://pokedex-ee.netlify.app",
